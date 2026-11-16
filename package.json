@@ -1,10 +1,10 @@
 {
-  "name": "minecraft-skin-editor",
+  "name": "one-shoot",
   "version": "1.1.0",
   "private": true,
-  "description": "Skin Studio — редактор скинов Minecraft (Android APK через Capacitor)",
+  "description": "one shoot — шутер для телефонов(Android APK через Capacitor)",
   "scripts": {
-    "prepare-web": "node -e \"const fs=require('fs');fs.mkdirSync('www',{recursive:true});fs.copyFileSync('index.html','www/index.html');\"",
+    "prepare-web": "node -e \"const fs=require('fs');fs.mkdirSync('www',{recursive:true});fs.copyFileSync('index.html','www/ONE_SHOOT_3.0.7_MAPS_ACHIEVEMENTS.html');\"",
     "android:sync": "npm run prepare-web && npx cap sync android",
     "android:open": "npx cap open android"
   },
